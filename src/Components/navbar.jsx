@@ -14,9 +14,9 @@ const Navbar = () => {
           <div className='rounded-full bg-white h-14 w-14 items-center justify-center flex flex-shrink-0'>
             <FaUser className='text-4xl'/>
           </div>
-            <h1 className='font-bold text-4xl text-white '>jangrahiten</h1>
+            <h1 className='font-bold text-4xl antialiased '>jangrahiten</h1>
         </div>
-        <div className='flex flex-shrink-0 gap-5 items-center m-4 text-4xl text-white'>
+        <div className='flex flex-shrink-0 gap-5 items-center m-4 text-4xl'>
             <FaLinkedinIn className=''/>
             <FaGithub/>
             <FaXTwitter/>
