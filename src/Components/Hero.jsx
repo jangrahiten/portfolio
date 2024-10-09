@@ -12,19 +12,25 @@ const Hero = () => {
                         Hiten Jangra
                      </h1>
                   </div>
-                  <span className="bg-gradient-to-r from-purple-700 via-neutral-700 to-purple-700 bg-clip-text tracking-tight text-transparent font-bold text-5xl">
+                  <span className="flex items-center lg:items-start bg-gradient-to-r from-purple-700 via-slate-800 to-purple-700 bg-clip-text tracking-tight text-transparent font-bold text-5xl">
                      Frontend Developer
                   </span>
                   <p className="my-2 max-w-xl py-6 font-light tracking-tighter text-2xl">
                      {HERO_CONTENT}
                   </p>
+                  <div className=""><span className="pb-16 text-4xl tracking-tight  lg:mt-16 lg:text-5xl
+                  bg-gradient-to-br from-cyan-500 via-green-600 to-slate-700 bg-clip-text text-transparent font-bold">My Tech stack:</span>
+                    <div>
+                    
+                    </div>
+                    </div>
                </div>
                <div className="w-full lg:w-1/2 lg:p-8">
                   <div className="flex justify-center">
                      <img
                         src={ProfilePicture}
                         alt="image"
-                        className="h-full rounded-lg"
+                        className="lg:h-full rounded-lg lg:size-full size-80"
                      />
                   </div>
                </div>
