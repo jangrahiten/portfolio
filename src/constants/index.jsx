@@ -1,60 +1,60 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project1 from "../assets/projects/spotifycloneproject.png";
+import project2 from "../assets/projects/todolistproject.png";
+import project3 from "../assets/projects/Tndproject.png";
 
 export const HERO_CONTENT = `I am a passionate developer looking forward to accept frontend projects. I have been interested and fascinated by the tech field since I was a college student and seeing others project used to bring shimmers in my eyes, especially Web-Development.`;
 
-export const ABOUT_TEXT = ``;
+export const ABOUT_TEXT =
+  {
+    "About Me": "A Sophomore at Delhi Technological Univeristy",
+    Achievements :""
+    
+  }
+;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "OCT 2024 - Nov 2024",
+    role: "Frontend Developer Intern",
+    company: "Sponsogram",
+    description: `Actively contributed to improving the user experience by fixing various UI/UX bugs, optimizing existing code, and implementing responsive design enhancements. Refactored reusable components to improve performance and maintainability. Assisted in debugging and resolving cross-browser compatibility issues, ensuring a smooth and consistent experience across devices.`,
+    technologies: ["React.js", "Next.js", "Typescript", "MongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Sep 2024 - Nov 2024",
+    role: "Web-Dev Intern",
+    company: "DTU USIP",
+    description: `Collaborated with a team of developers and designers to enhance the user interface of the DTU Department of International Affairs website. Implemented design changes to improve accessibility, responsiveness, and overall aesthetics. Developed front-end components to ensure better performance and compatibility across different devices. Assisted in debugging, testing, and deploying updates to the website, ensuring a seamless experience for students and faculty members.`,
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Truth & Dare Minigame",
+    image: project3,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "An application made just for fun & enjoy a game of Truth or Dare with friends. This project helped me sharpen my concepts of backend using node.js & express.js aswell working with Restful APIs.",
+    technologies: ["React","TailwindCSS", "Express.js", "Restful API"],
   },
   {
-    title: "Task Management App",
+    title: "Todo-List App",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["HTML", "CSS", "Firebase"],
+  },
+  {
+    title: "Spotify Clone",
+    image: project1,
+    description:
+      "A fully Functional but non-responsive spotify music player clone. Understood the concepts of making a website functional using Javascript. A good beginner project I made while sharpening my concepts of DOM in Javascript.",
+    technologies: ["HTML", "CSS", "Javascript"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "New Delhi",
+  phoneNo: "+91 9650461689 ",
+  email: "jangrahiten.dev@gmail.com",
 };
