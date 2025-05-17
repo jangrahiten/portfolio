@@ -6,8 +6,9 @@ export const HERO_CONTENT = `I am a passionate developer looking forward to acce
 
 export const ABOUT_TEXT =
   {
-    "About Me": "A Sophomore at Delhi Technological Univeristy",
-    Achievements :""
+    "About Me": "Hi, I'm <strong>Hiten Jangra</strong> — a second-year Electrical Engineering student at Delhi Technological University (DTU) with a deep passion for technology. I thrive in the world of code, often losing track of time while building, learning, and experimenting. I'm always eager to explore emerging tech, sharpen my skills, and take on exciting challenges that push my limits.",
+    Hobbies : "Beyond coding, I'm someone who believes in a well-rounded lifestyle. I consistently <strong>hit the Gym</strong> to stay active, and I've been <strong>playing Football</strong> since High School — it's my favorite way to recharge and stay competitive. I also enjoy expressing my creativity through <strong>video editing and graphic design</strong>, where I'm at an intermediate level. And when the moment calls for it, I pick up the <strong>Guitar</strong> — I may not be a pro, but I know how to set the mood with a few chords.",
+    "Achievements & Experiences": "While I haven't snagged many hackathon wins yet, I've actively participated in several, each one helping me grow as a developer and expand my network. These events have taught me more than just code — from rapid problem-solving to effective teamwork under pressure.  Every experience has shaped my journey, and I'm always looking forward to what’s next."
     
   }
 ;

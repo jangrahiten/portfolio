@@ -3,7 +3,7 @@ import { ABOUT_TEXT } from "../constants";
 import { motion, AnimatePresence  } from "motion/react";
 
 const About = () => {
-  const [aboutText, setAboutText] = useState(ABOUT_TEXT.Introduction);
+  const [aboutText, setAboutText] = useState(ABOUT_TEXT["About Me"]);
 
   const changeText = (key) => {
     setAboutText(ABOUT_TEXT[key]);
@@ -39,18 +39,22 @@ const About = () => {
           >
             <AnimatePresence mode="wait">
               {aboutText && (
-                <motion.p
+                <motion.div
                   key={aboutText}
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
                   transition={{ delay: 0.1, duration: 0.25 }}
-                  className="text-lg flex justify-center"
+                  className="text-2xl flex justify-center text-center"
                 >
-                  {aboutText}
-                </motion.p>
+                  <div
+                    className="w-1/2"
+                    dangerouslySetInnerHTML={{ __html: aboutText }}
+                  />
+                </motion.div>
               )}
             </AnimatePresence>
+
           </motion.div>
         </div>
       </div>
